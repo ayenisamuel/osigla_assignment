@@ -1,0 +1,128 @@
+body{background-color: beige;
+
+}
+.all {
+    margin: auto;
+    width: 50%;
+    padding: 54px;
+    background-color: beige;
+}
+.top {
+    border-top-left-radius: 10px;
+    background-color: white;
+    padding: 11px;
+    padding-left: 32px;
+    width: 100%;
+    border-top-right-radius: 10px;
+}
+.abox {
+    margin-top: -74px;
+    margin-left: 53px;
+    color: rgba(229, 239, 245, 0.5);
+}
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  .box {
+    float: left;
+    width: 50%;
+    padding: 6px;
+    height: 253px;
+    padding-left: 29px;
+  }
+  div#b1 {
+    background-color:hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+}
+
+
+div#b2 { background-color: hsl(179, 45%, 58%);
+    border-bottom-right-radius: 10px;
+}
+p.bl1 {
+    padding-top: 10px;
+    color: white;
+}
+p.bbox {
+    margin-bottom: -12px;
+    color: rgba(231, 243, 242, 1.5);
+    font-size: 12px;
+    padding: 2px
+}
+h3 {
+    color: hsl(179, 62%, 43%);
+}
+h4{
+    color: hsl(71, 73%, 54%)
+}
+p.rest1{
+    color: hsl(204, 17%, 83%);
+    margin-bottom: -13px;
+}
+p.rest2{
+    color: hsl(204, 17%, 83%);
+}
+pre {
+    margin-top: -26px;
+}
+h2 {
+    color: white;
+    font-size: xx-large;
+}
+p.bbox1 {
+    color: rgba(249, 250, 242, 1.5);
+}
+input[type="button"] {
+    width: 92%;
+    padding: 12px;
+    border-radius: 6px;
+    color: white;
+    margin-top: 10px;
+    background-color: hsl(71, 73%, 54%);
+    border-style: hidden;
+}
+p#why {
+    padding-bottom: 13px;
+}
+
+@media only screen and (max-width:800px){
+.below{
+    display: grid;
+}
+*{
+    box-sizing: unset;
+}
+.box{
+    width: 67%;
+}
+input[type="button"]{
+    width: 77%;
+    margin-top: 21px;
+}
+.top {
+    width: 65%;
+}
+div#b2{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+div#b1{
+    border-bottom-left-radius: 0px;
+}
+}
+@media only screen and (max-width:380px){
+    .box{
+        width: 129%;
+    margin-left: -22%;
+    }
+    input[type="button"]{
+        width: 77%;
+        margin-top: 21px;
+    }
+    .top {
+        width: 124%;
+        margin-left: -22%;
+    }
+}
